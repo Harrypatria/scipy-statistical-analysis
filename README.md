@@ -3,6 +3,14 @@
 
 - Scipy: Scipy is a Python library used for scientific and technical computing, including mathematics, science, and engineering. It provides many useful functions for optimization, signal processing, statistics, and more. The Scipy library is a popular open-source Python library used for scientific and technical computing. It provides modules for optimization, integration, interpolation, linear algebra, statistics, signal and image processing, and much more. The library is built on top of the NumPy library, which provides support for arrays and matrices, and therefore, Scipy is extensively used in data science, machine learning, and scientific research.
 
+- There are over 20 distinct data distributions that are utilized to model a wide range of phenomena in both continuous and discrete spaces. These distributions exhibit interconnectivity and can be classified into a family of distributions. To avoid plagiarism, it's important to note that the visualization below is a helpful tool proposed by a blog post, which displays exact relationships (special cases, transformations, or sums) as continuous lines and limit relationships as dashed lines. A detailed explanation of these relationships can be found in the same post, while this paper offers a comprehensive analysis of the interactions between distributions.
+
+https://miro.medium.com/max/1400/1*NhLlwFMzN0yWSvhipqMgfw.jpeg
+
+
+
+Regenerate response
+
 - Format Setting: This description is too vague to provide a clear answer, as there are many different contexts in which "format setting" could be used. Without further context, it is difficult to determine what this description is referring to.
 
 - Statistical Analysis: This section of the tutorial aims to illustrate how to use Python to build statistical models and perform data analysis. It covers topics such as estimation, fitting data to probability distributions, and working with discrete and continuous random variables.
