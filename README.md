@@ -37,6 +37,41 @@ Negative binomial: ![Alt Text](https://miro.medium.com/v2/resize:fit:1316/1*0ddV
 
 Poisson distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1282/1*-8eqxbJbuN3QbxItN9EMdQ.png)
 
+### Continuous distributions
+ 
+- Beta distribution is commonly used to represent variability over a fixed range. For instance, to model the behavior of random variables limited to intervals of finite length. It is also a suitable choice to model percentage or proportions. In Bayesian inference, it is used to model the conjugate prior for Bernoulli, Binomial, Negative binomial and geometric distributions. More simply put, the beta distribution is a good proposal for the priors (the initial knowledge of success) for different applications from the Bernoulli family, such as the number of heads on coin tossing trials or any other dual outcome event. It takes 2 parameters, alpha and beta, and the uncertain variable is a random value between 0 and a positive value. Different combinations of alpha and beta lead to the following shapes of the distribution:
+
+alpha == beta => symmetrical distribution
+if (alpha == 1 and beta > 1) or (beta== 1 and alpha> 1) => J shaped distribution
+alpha < beta => positive skew
+alpha >beta => negative skew
+
+Beta distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1240/1*WhlyL1-jGk5TU28O8_vL9g.png)
+
+- Dirichlet distribution is a multivariate generalization of beta distributions, for which reason it is also known as Multivariate Beta distributions. It is used as prior distribution in Bayesian statistics, where it is the conjugate prior of the categorical and multinomial distribution. It is parameterized by a vector alpha of positive reals, and it samples over a probability simplex. A probability simplex is a set of k numbers adding up to 1 and which correspond to the probabilities of k classes. A k-dimensional Dirichlet distribution has k parameters.
+
+- Cauchy distribution is employed in mechanical and electrical theory, physical anthropology and measurement, and calibration problems. In physics, it describes the distribution of the energy of an unstable state in quantum mechanics under the name Lorentzian distribution. Another application is to model the points of impact of a fixed straight line of particles emitted from a point source or in robustness studies. The Cauchy distribution is known to be a pathological distribution as both its mean and variance are undefined. It takes two parameters. In Bayesian statistics, Cauchy distribution can be used to model the priors for the regression coefficients in logistic regression.
+
+The distribution takes two parameters, the mode m (corresponding to the peak) and the scale gamma (half-width at half maximum of the distribution). Cauchy distribution is the Student’s T distribution with 1 degree of freedom.
+
+Cauchy distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1256/1*_8_AHmtNOhP9yHdsWsgiEw.png)
+
+- Chi-Square distribution is predominantly used in hypothesis testing, in the construction of confidence intervals, in the evaluation of the goodness of fit of an observed distribution to a theoretical one. Chi-Square (with one degree of freedom) variable is the square of a standard normal variable, and Chi-Square distribution has additive property (Sum of two independent Chi-Square distributions is also a Chi-Square variable). The sum of k independent normal distributions is distributed as a chi-square with k degrees of freedom. The chi-square distribution can also be modeled using a gamma distribution with the shape parameter as k/2 and scale as 2S².
+
+The chi-squared distribution has one parameter: k, the number of degrees of freedom.
+
+The chi-squared distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1154/1*GddVH8UqEU6zFAi5RFjJSQ.png)
+
+- Exponential distribution describes the amount of time between events occurring at random moments. It is considered that time has no effect on future outcomes (the future lifetime of an object has the same distribution, regardless of the time it existed) which makes the exponential “memoryless”. It can be used to model situations such as: how long do we have to wait at a crossroads until we see a car running on the red light or how long it will take until someone receives the next phone call? How long will a product function before breaking down?
+
+The exponential distribution is related to Poisson, which doesn’t describe the time lapsed but the number of occurrences of an event in a given time frame. The exponential distribution is parametrized only by lambda, the success rate.
+
+The exponential distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1186/1*WQadkW_17iA_Yl1go9pXCw.png)
+
+- Extreme value distribution, or the Gumbel distribution, models the distribution of the maximum (or the minimum) of a number of samples of various distributions. Examples of this distribution are the breaking strengths of materials, the maximum load for an aircraft, tolerance studies, the maximum level of a river, or of an earthquake in a given year. This distribution has 2 parameters, the mode m corresponding to the most likely point (or the PDF’s highest peak) and a scale parameter, beta, which is > 0 and governs the variance.
+
+Types of distribution: ![Alt Text](https://miro.medium.com/v2/resize:fit:1016/1*hbVgUuwmhNaYA7FXjaLHUA.png)
+
 - Statistical Analysis: This section of the tutorial aims to illustrate how to use Python to build statistical models and perform data analysis. It covers topics such as estimation, fitting data to probability distributions, and working with discrete and continuous random variables.
 
 - Statistical Data Modeling: This section of the tutorial discusses the limitations of traditional statistical hypothesis testing and introduces a more powerful approach to statistical analysis that involves building flexible models to estimate quantities of interest. The tutorial provides examples of how to use Python to build statistical models from scratch and extract estimates and measures of uncertainty.
