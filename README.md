@@ -22,3 +22,7 @@ While dataset also can be found here:
 https://github.com/Harrypatria/scipy-statistical-analysis
 
 The material provided in the given Github link is a Jupyter notebook that demonstrates the usage of Scipy for statistical analysis. It covers various statistical tests like t-test, chi-square test, ANOVA, etc., and their implementation using Scipy. The notebook also explains the interpretation of the test results and provides practical examples to illustrate the concepts.
+
+![GitHub Logo](https://res.cloudinary.com/dyd911kmh/image/upload/v1676303474/Marketing/Blog/SciPy_Cheat_Sheet.pdf)
+Format: ![Alt Text](https://res.cloudinary.com/dyd911kmh/image/upload/v1676303474/Marketing/Blog/SciPy_Cheat_Sheet.pdf)
+
