@@ -5,9 +5,7 @@
 
 - There are over 20 distinct data distributions that are utilized to model a wide range of phenomena in both continuous and discrete spaces. These distributions exhibit interconnectivity and can be classified into a family of distributions. To avoid plagiarism, it's important to note that the visualization below is a helpful tool proposed by a blog post, which displays exact relationships (special cases, transformations, or sums) as continuous lines and limit relationships as dashed lines. A detailed explanation of these relationships can be found in the same post, while this paper offers a comprehensive analysis of the interactions between distributions.
 
-https://miro.medium.com/max/1400/1*NhLlwFMzN0yWSvhipqMgfw.jpeg
-
-
+Format: ![Alt Text](https://miro.medium.com/max/1400/1*NhLlwFMzN0yWSvhipqMgfw.jpeg)
 
 Regenerate response
 
