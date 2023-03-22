@@ -11,6 +11,7 @@ In probability theory, probability density function is a continuous approximatio
 
 In data science, there are various types of distributions that are commonly used to model different types of phenomena. Each distribution has its own probability distribution/mass function and a typical shape in visualization.
 
+
 ### Discrete distributions
 
 - Bernoulli distribution is a discrete distribution consisting of only one trial with 2 outcomes (success/failure). It constitutes the basis for defining other more complex distributions, which analyze more than one trial, such as the next 3 distributions.
@@ -92,4 +93,3 @@ The material provided in the given Github link is a Jupyter notebook that demons
 
 
 Scipy cheatsheet: ![Alt Text](https://ugoproto.github.io/ugo_py_doc/img/scipy_cs/Python_SciPy_Cheat_Sheet_Linear_Algebra.png)
-
