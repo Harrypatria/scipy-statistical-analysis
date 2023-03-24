@@ -1,4 +1,4 @@
-### scipy-statistical-analysis
+### Scipy Statistical Analysis
 
 Scipy: Scipy is a Python library used for scientific and technical computing, including mathematics, science, and engineering. It provides many useful functions for optimization, signal processing, statistics, and more. The Scipy library is a popular open-source Python library used for scientific and technical computing. It provides modules for optimization, integration, interpolation, linear algebra, statistics, signal and image processing, and much more. The library is built on top of the NumPy library, which provides support for arrays and matrices, and therefore, Scipy is extensively used in data science, machine learning, and scientific research.
 
