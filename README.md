@@ -4,7 +4,6 @@ Scipy: Scipy is a Python library used for scientific and technical computing, in
 
 There are over 20 distinct data distributions that are utilized to model a wide range of phenomena in both continuous and discrete spaces. These distributions exhibit interconnectivity and can be classified into a family of distributions. To avoid plagiarism, it's important to note that the visualization below is a helpful tool proposed by a blog post, which displays exact relationships (special cases, transformations, or sums) as continuous lines and limit relationships as dashed lines. A detailed explanation of these relationships can be found in the same post, while this paper offers a comprehensive analysis of the interactions between distributions.
 
-
 Types of common distribution and the relationships: ![Alt Text](https://miro.medium.com/max/1400/1*NhLlwFMzN0yWSvhipqMgfw.jpeg)
 
 In probability theory, probability density function is a continuous approximation of the probability distribution, expressed in terms of integrals of the density of a distribution or a smooth version of histograms. Cumulative distribution function, on the other hand, is a function that gives the probability that a random variable takes on a value less than or equal to a given value. It can be expressed as F(x) = P(X ≤ x), where X is a random variable and x is a value in its domain. For discrete domains, probability mass function (PMF) is used to give the probability that a discrete random variable is exactly equal to some value.
